@@ -1,6 +1,10 @@
-import React from 'react'
+"use client"
+import { X } from 'lucide-react'
+import React, { useState } from 'react'
+import { Link } from 'react-scroll'
 
 function Header() {
+    const [isOpen, setIsOpen] = useState(false)
     return (
         <div id='nav'>
             <header className="bg-white">
@@ -21,25 +25,11 @@ function Header() {
                         <div className="md:flex md:items-center md:gap-12">
                             <nav aria-label="Global" className="hidden md:block">
                                 <ul className="flex items-center gap-6 text-sm">
-                                    <li>
-                                        <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Home </a>
-                                    </li>
-
-                                    <li>
-                                        <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> About </a>
-                                    </li>
-
-                                    <li>
-                                        <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Projects </a>
-                                    </li>
-
-                                    <li>
-                                        <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Contact Us </a>
-                                    </li>
-
-                                    <li>
-                                        <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Blog </a>
-                                    </li>
+                                    <Link to="/" smooth duration={500} className="py-5 px-3 cursor-pointer hover:text-purple-700">Home</Link>
+                                    <Link to="about" smooth duration={500} className="py-5 px-3 cursor-pointer hover:text-purple-700 scroll-smooth">About</Link>
+                                    <Link to="projects" smooth duration={500} className="py-5 px-3 cursor-pointer hover:text-purple-700">Projects</Link>
+                                    <Link to="WhySection" smooth duration={500} className="py-5 px-3 cursor-pointer hover:text-purple-700">Blog</Link>
+                                    <Link to="footer" smooth duration={500} className="py-5 px-3 cursor-pointer hover:text-purple-700">Contact  </Link>
                                 </ul>
                             </nav>
 
@@ -47,8 +37,8 @@ function Header() {
 
 
                                 <div className="block md:hidden">
-                                    <button className="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75">
-                                        <svg
+                                    <button onClick={() => setIsOpen(!isOpen)} className="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75">
+                                        {isOpen ? <X className='h-6 w-6' /> : <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             className="h-5 w-5"
                                             fill="none"
@@ -58,11 +48,22 @@ function Header() {
                                         >
                                             <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
                                         </svg>
+                                        }
                                     </button>
                                 </div>
+
                             </div>
+
                         </div>
+
                     </div>
+                    <div div className={`${isOpen ? 'block' : 'hidden'} md:hidden`}>
+                        <Link href="/" className="block py-2 px-4 text-sm hover:bg-gray-700">Home</Link>
+                        <Link href="#services" className="block py-2 px-4 text-sm hover:bg-gray-700">About</Link>
+                        <Link href="#about" className="block py-2 px-4 text-sm hover:bg-gray-700">Projects</Link>
+                        <Link href="#projects" className="block py-2 px-4 text-sm hover:bg-gray-700">Blog</Link>
+                        <Link href="#footer" className="block py-2 px-4 text-sm hover:bg-gray-700">Contact</Link>
+                    </div >
                 </div>
             </header>
         </div>

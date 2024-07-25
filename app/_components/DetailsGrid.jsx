@@ -3,118 +3,123 @@ import React from 'react'
 
 function DetailsGrid() {
     return (
-        <div>
 
 
 
-            <section>
-                <div className="max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
-                    <div className="grid grid-cols-1 gap-y-8 lg:grid-cols-2 lg:items-center lg:gap-x-16">
-                        <div className="mx-auto max-w-lg text-center lg:mx-0 ltr:lg:text-left rtl:lg:text-right">
-                            <div className='flex flex-col items-center' >
-                                <h1 className='mt-8 p-6 text-5xl font-black text-gray-800'>Why  <span className='text-blue-700'>Us? </span> </h1>
-                                <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Id corporis sed alias totam culpa architecto exercitationem aliquid error tempora blanditiis. Magnam perspiciatis quaerat architecto at laudantium necessitatibus sapiente laborum quod.</p>
-                            </div >
+
+        <section id='WhySection'>
+            <div className="max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
+                <div className="grid grid-cols-1 gap-y-8 lg:grid-cols-2 lg:items-center lg:gap-x-16">
+                    <div className="mx-auto max-w-lg text-center lg:mx-0 ltr:lg:text-left rtl:lg:text-right">
+                        <div className='flex flex-col items-center' >
+                            <h1 className='mt-8 p-6 text-5xl font-black text-gray-800'>Why  <span className='text-blue-700'>Us? </span> </h1>
+                            <p >At Technopolis, we offer exceptional real estate services with a focus on transparency, reliability, and local expertise. Our innovative approach and commitment to excellence ensure that every project exceeds expectations. We genuinely care about our clients and the communities we serve.</p>
+                        </div >
 
 
-                        </div>
+                    </div>
 
-                        <div className="grid grid-cols-2 gap-4 sm:grid-cols-3">
-                            <a
-                                className="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-blue-400 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
-                                href="#"
-                            >
-                                <span className="inline-block rounded-lg bg-gray-50 p-3">
-                                    <BookDashed className='text-blue-800' />
-                                </span>
+                    <div className="grid grid-cols-2 gap-4 sm:grid-cols-3">
+                        <a
+                            className="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-blue-400 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
+                            href="#"
+                        >
+                            <span className="inline-block rounded-lg bg-gray-50 p-3">
+                                <BookDashed className='text-blue-800' />
+                            </span>
 
-                                <h2 className="mt-2 font-bold">Transparent</h2>
+                            <h2 className="mt-2 font-bold">Transparent</h2>
 
-                                <p className="hidden sm:mt-1 sm:block sm:text-sm sm:text-gray-600">
-                                    Lorem ipsum dolor sit amet consectetur.
-                                </p>
-                            </a>
+                            <p className="hidden sm:mt-1 sm:block sm:text-sm sm:text-gray-600">
+                                Open and honest communication in every transaction.
 
-                            <a
-                                className="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-blue-400 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
-                                href="#"
-                            >
-                                <span className="inline-block rounded-lg bg-gray-50 p-3">
-                                    <UserRound className='text-blue-800'/>
-                                </span>
+                            </p>
+                        </a>
 
-                                <h2 className="mt-2 font-bold">Dependable</h2>
+                        <a
+                            className="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-blue-400 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
+                            href="#"
+                        >
+                            <span className="inline-block rounded-lg bg-gray-50 p-3">
+                                <UserRound className='text-blue-800' />
+                            </span>
 
-                                <p className="hidden sm:mt-1 sm:block sm:text-sm sm:text-gray-600">
-                                    Lorem ipsum dolor sit amet consectetur.
-                                </p>
-                            </a>
+                            <h2 className="mt-2 font-bold">Dependable</h2>
 
-                            <a
-                                className="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-blue-400 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
-                                href="#"
-                            >
-                                <span className="inline-block rounded-lg bg-gray-50 p-3">
-                                    <Sprout className='text-blue-800' />
-                                </span>
+                            <p className="hidden sm:mt-1 sm:block sm:text-sm sm:text-gray-600">
+                                Reliable service you can trust, from start to finish.
 
-                                <h2 className="mt-2 font-bold">Rooted</h2>
+                            </p>
+                        </a>
 
-                                <p className="hidden sm:mt-1 sm:block sm:text-sm sm:text-gray-600">
-                                    Lorem ipsum dolor sit amet consectetur.
-                                </p>
-                            </a>
+                        <a
+                            className="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-blue-400 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
+                            href="#"
+                        >
+                            <span className="inline-block rounded-lg bg-gray-50 p-3">
+                                <Sprout className='text-blue-800' />
+                            </span>
 
-                            <a
-                                className="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-blue-400 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
-                                href="#"
-                            >
-                                <span className="inline-block rounded-lg bg-gray-50 p-3">
-                                    <TrendingUp className='text-blue-800' />
-                                </span>
+                            <h2 className="mt-2 font-bold">Rooted</h2>
 
-                                <h2 className="mt-2 font-bold">Progressive</h2>
+                            <p className="hidden sm:mt-1 sm:block sm:text-sm sm:text-gray-600">
+                                Deep local expertise and connections.
 
-                                <p className="hidden sm:mt-1 sm:block sm:text-sm sm:text-gray-600">
-                                    Lorem ipsum dolor sit amet consectetur.
-                                </p>
-                            </a>
+                            </p>
+                        </a>
 
-                            <a
-                                className="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-blue-400 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
-                                href="#"
-                            >
-                                <span className="inline-block rounded-lg bg-gray-50 p-3">
-                                    <Trophy className='text-blue-800' />
-                                </span>
+                        <a
+                            className="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-blue-400 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
+                            href="#"
+                        >
+                            <span className="inline-block rounded-lg bg-gray-50 p-3">
+                                <TrendingUp className='text-blue-800' />
+                            </span>
 
-                                <h2 className="mt-2 font-bold">Excellence</h2>
+                            <h2 className="mt-2 font-bold">Progressive</h2>
 
-                                <p className="hidden sm:mt-1 sm:block sm:text-sm sm:text-gray-600">
-                                    Lorem ipsum dolor sit amet consectetur.
-                                </p>
-                            </a>
+                            <p className="hidden sm:mt-1 sm:block sm:text-sm sm:text-gray-600">
+                                Innovative solutions for modern real estate needs.
 
-                            <a
-                                className="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-blue-400 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
-                                href="#"
-                            >
-                                <span className="inline-block rounded-lg bg-gray-50 p-3">
-                                    <Heart className='text-blue-800' />
-                                </span>
+                            </p>
+                        </a>
 
-                                <h2 className="mt-2 font-bold">Caring</h2>
+                        <a
+                            className="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-blue-400 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
+                            href="#"
+                        >
+                            <span className="inline-block rounded-lg bg-gray-50 p-3">
+                                <Trophy className='text-blue-800' />
+                            </span>
 
-                                <p className="hidden sm:mt-1 sm:block sm:text-sm sm:text-gray-600">
-                                    Lorem ipsum dolor sit amet consectetur.
-                                </p>
-                            </a>
-                        </div>
+                            <h2 className="mt-2 font-bold">Excellence</h2>
+
+                            <p className="hidden sm:mt-1 sm:block sm:text-sm sm:text-gray-600">
+                                Striving for the highest standards in every project.
+
+                            </p>
+                        </a>
+
+                        <a
+                            className="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-blue-400 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
+                            href="#"
+                        >
+                            <span className="inline-block rounded-lg bg-gray-50 p-3">
+                                <Heart className='text-blue-800' />
+                            </span>
+
+                            <h2 className="mt-2 font-bold">Caring</h2>
+
+                            <p className="hidden sm:mt-1 sm:block sm:text-sm sm:text-gray-600">
+                                Committed to the well-being of our clients and communities.
+                            </p>
+                        </a>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-        </div>
+
     )
 }
 

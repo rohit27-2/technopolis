@@ -1,9 +1,10 @@
+import Link from 'next/link'
 import React from 'react'
 
 function Projects() {
     return (
 
-        <div className='mt-8 p-6 flex flex-col items-center'>
+        <div id='projects' className='mt-8 p-6 flex flex-col items-center'>
             <div className='flex flex-col items-center' >
                 <h1 className='mt-8 p-6 text-5xl font-black text-gray-800'>Luxury  <span className='text-blue-700'>Living, </span>Redefined </h1>
                 <p >"Get to know our Previous Projects"</p>
@@ -31,11 +32,11 @@ function Projects() {
                             Project Bhoomi is a residential project by Bhoomi Constructions in Hyderabad. It is a registered project and is available for possession from December 2023. The project is spread over a total area of 0.17 acres of land. Project Bhoomi has a total of 1 tower. The construction is of 5 floors. An accommodation of 10 units has been provided.
                         </p>
 
-                        <span
-                            className="mt-4 block rounded-md border border-indigo-900 bg-indigo-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
+                        <Link href={'/projects'}
+                         className="mt-4 w-full block rounded-md border border-indigo-900 bg-indigo-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
                         >
                             View More
-                        </span>
+                        </Link>
                     </div>
                 </div>
 

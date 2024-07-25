@@ -77,8 +77,7 @@ function Footer() {
                             </div>
 
                             <p class="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500 lg:text-left">
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt consequuntur amet culpa
-                                cum itaque neque.
+                            Established in 2006, Technopolis Constructions Company Private Limited is a reputed organization that has built several residential and commercial spaces in Hyderabad over the last 16 years. The company's phenomenal portfolio of projects includes a wide range of quality apartment complexes, high-rise towers, and commercial spaces in the heart of the city.
                             </p>
                         </div>
 
@@ -90,7 +89,7 @@ function Footer() {
                             </li>
 
                             <li>
-                                <a class="text-gray-700 transition hover:text-gray-700/75" href="#"> Services </a>
+                                <a class="text-gray-700 transition hover:text-gray-700/75" href="#"> Contact </a>
                             </li>
 
                             <li>
@@ -104,7 +103,7 @@ function Footer() {
                     </div>
 
                     <p class="mt-12 text-center text-sm text-gray-500 lg:text-right">
-                        Copyright &copy; 2022. All rights reserved.
+                        Copyright &copy; 2024. All rights reserved.
                     </p>
                 </div>
             </footer>
