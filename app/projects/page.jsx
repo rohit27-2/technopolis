@@ -8,104 +8,41 @@ function ProjectPage() {
             <Header />
             <div className='mt-8 '>
                 <div className='flex flex-col items-center' >
-                    <h1 className='mt-8 p-6 text-5xl font-black text-gray-800'>Luxury  <span className='text-blue-700'>Living, </span>Redefined </h1>
-                    <p >"Get to know our Previous Projects"</p>
+
+                    <img src="solitaire-logo.jpg" alt="" />
+
+                    <h1 className=' mt-8 p-6 md:p-8 text-5xl font-black text-gray-800'>Immerse  <span className='text-blue-700'>YOURSELF, </span>In An <span className='text-blue-700'>Elite</span> Lifestyle </h1>
+                    <center>
+                        <p className='px-10 py-4 text-gray-500'>Solitaire Unity has been designed and crafted to delivery incredible living experiences that bring comfort and joy to every member of your family. <br /> Indulge in the life of your dreams right here.</p>
+                    </center>
                 </div >
-                <div className='grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-3 p-6'>
-                    <div className='flex  mt-8 p-5 '>
-                        <div className="relative block rounded-3xl border border-gray-100">
-                            <span
-                                className="absolute -right-px -top-px rounded-bl-3xl rounded-tr-3xl bg-rose-600 px-6 py-4 font-medium uppercase tracking-widest text-white"
-                            >
-                                Latest
-                            </span>
+                <div className="mt-8 sm:mt-12 px-20 mr-12 ml-12 py-5">
+                    <dl className="grid grid-cols-1 gap-4 sm:grid-cols-4">
+                        <div className="flex flex-col justify-between rounded-lg bg-blue-50 px-4 py-8 text-center">
+                            <dt className=" text-lg font-medium text-gray-500">Gated Community</dt>
 
-                            <img
-                                src="Project.jpg"
-                                alt=""
-                                className="h-80 w-full rounded-3xl object-cover"
-                            />
-
-                            <div className="p-4 text-center">
-                                <strong className="text-xl font-medium text-gray-900"> Project Bhoomi </strong>
-
-                                <p className="mt-2 text-pretty text-gray-700">
-
-                                    Project Bhoomi is a residential project by Bhoomi Constructions in Hyderabad. It is a registered project and is available for possession from December 2023. The project is spread over a total area of 0.17 acres of land. Project Bhoomi has a total of 1 tower. The construction is of 5 floors. An accommodation of 10 units has been provided.
-                                </p>
-
-                                {/* <button
-                                    className="mt-4 w-full block rounded-md border border-indigo-900 bg-indigo-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
-                                >
-                                    <a href="/projects">View More</a>
-                                </button> */}
-                            </div>
+                            <dd className="text-3xl font-extrabold text-blue-700 md:text-4xl">2.24 Acers</dd>
                         </div>
 
-                    </div>
-                    <div className='flex mt-8 p-5 '>
-                        <div className="relative block rounded-3xl border border-gray-100">
-                            <span
-                                className="absolute -right-px -top-px rounded-bl-3xl rounded-tr-3xl bg-rose-600 px-6 py-4 font-medium uppercase tracking-widest text-white"
-                            >
-                                Latest
-                            </span>
+                        <div className="flex flex-col justify-between rounded-lg bg-blue-50 px-4 py-8 text-center">
+                            <dt className=" text-lg font-medium text-gray-500">Units of  2 & 3 BHK</dt>
 
-                            <img
-                                src="Project.jpg"
-                                alt=""
-                                className="h-80 w-full rounded-3xl object-cover"
-                            />
-
-                            <div className="p-4 text-center">
-                                <strong className="text-xl font-medium text-gray-900"> Project Bhoomi </strong>
-
-                                <p className="mt-2 text-pretty text-gray-700">
-
-                                    Project Bhoomi is a residential project by Bhoomi Constructions in Hyderabad. It is a registered project and is available for possession from December 2023. The project is spread over a total area of 0.17 acres of land. Project Bhoomi has a total of 1 tower. The construction is of 5 floors. An accommodation of 10 units has been provided.
-                                </p>
-
-                                {/* <button
-                                    className="mt-4 w-full block rounded-md border border-indigo-900 bg-indigo-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
-                                >
-                                    <a href="/projects">View More</a>
-                                </button> */}
-                            </div>
+                            <dd className="text-3xl font-extrabold text-blue-700 md:text-4xl">352</dd>
                         </div>
 
-                    </div>
-                    <div className='flex  mt-8 p-5 '>
-                        <div className="relative block rounded-3xl border border-gray-100">
-                            <span
-                                className="absolute -right-px -top-px rounded-bl-3xl rounded-tr-3xl bg-rose-600 px-6 py-4 font-medium uppercase tracking-widest text-white"
-                            >
-                                Latest
-                            </span>
+                        <div className="flex flex-col justify-between rounded-lg bg-blue-50 px-4 py-8 text-center">
+                            <dt className=" text-lg font-medium text-gray-500">SFT AREAS</dt>
 
-                            <img
-                                src="Project.jpg"
-                                alt=""
-                                className="h-80 w-full rounded-3xl object-cover"
-                            />
-
-                            <div className="p-4 text-center">
-                                <strong className="text-xl font-medium text-gray-900"> Project Bhoomi </strong>
-
-                                <p className="mt-2 text-pretty text-gray-700">
-
-                                    Project Bhoomi is a residential project by Bhoomi Constructions in Hyderabad. It is a registered project and is available for possession from December 2023. The project is spread over a total area of 0.17 acres of land. Project Bhoomi has a total of 1 tower. The construction is of 5 floors. An accommodation of 10 units has been provided.
-                                </p>
-
-                                {/* <button
-                                    className="mt-4 w-full block rounded-md border border-indigo-900 bg-indigo-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
-                                >
-                                    <a href="/projects">View More</a>
-                                </button> */}
-                            </div>
+                            <dd className="text-3xl font-extrabold text-blue-700 md:text-4xl">1225 - 2230</dd>
                         </div>
+                        <div className="flex flex-col justify-between rounded-lg bg-blue-50 px-4 py-8 text-center">
+                            <dt className="text-lg font-medium text-gray-500">SFT Clubhouse</dt>
 
-                    </div>
+                            <dd className="text-3xl font-extrabold text-blue-700 md:text-4xl">32,000</dd>
+                        </div>
+                    </dl>
                 </div>
+
 
 
 
