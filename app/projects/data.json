@@ -1,0 +1,53 @@
+[
+    {
+      "title": "Air-conditioned Gymnasium",
+      "image": "gym.jpg",
+      "bgColor": "bg-blue-100"
+    },
+    {
+      "title": "Business Centre and Co-working Space",
+      "image": "working.jpg",
+      "bgColor": "bg-blue-50"
+    },
+    {
+      "title": "Swimming Pool with Pool Deck",
+      "image": "pool.jpg",
+      "bgColor": "bg-blue-100"
+    },
+    {
+      "title": "Yoga & Meditation Room",
+      "image": "yoga.jpg",
+      "bgColor": "bg-blue-50"
+    },
+    {
+      "title": "Music/Dance/ Aerobics Room",
+      "image": "dance.jpg",
+      "bgColor": "bg-blue-100"
+    },
+    {
+      "title": "Indoor Games Room",
+      "image": "games.jpg",
+      "bgColor": "bg-blue-50"
+    },
+    {
+      "title": "Community Kitchen",
+      "image": "com.jpg",
+      "bgColor": "bg-blue-100"
+    },
+    {
+      "title": "Banquet Hall",
+      "image": "hall.jpg",
+      "bgColor": "bg-blue-50"
+    },
+    {
+      "title": "Grocery Store/ Utility Store",
+      "image": "store.jpg",
+      "bgColor": "bg-blue-100"
+    },
+    {
+        "title": "Senior Citizen Lounge",
+        "image": "senior.jpg",
+        "bgColor": "bg-blue-50"
+      }
+  ]
+  
