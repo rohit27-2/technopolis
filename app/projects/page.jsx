@@ -1,7 +1,9 @@
+"use client"
 import React from 'react'
 import Header from '../_components/Header'
 import Footer from '../_components/Footer'
 import data from './data'
+import Gallery from './_components/gallery'
 function ProjectPage() {
   return (
     <div>
@@ -10,6 +12,7 @@ function ProjectPage() {
         <div className='flex flex-col items-center' >
 
           <img src="solitaire-logo.jpg" alt="" />
+          <p className='text-gray-500'>TS RERA PROJECT NO: P02400003285</p>
 
           <h1 className=' mt-8 p-6 md:p-8 text-5xl font-black text-gray-800'>Immerse  <span className='text-blue-700'>YOURSELF, </span>In An <span className='text-blue-700'>Elite</span> Lifestyle </h1>
           <center>
@@ -105,7 +108,7 @@ function ProjectPage() {
           <section className="bg-white">
             <div className="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
               <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-                LIVE THE BEST
+                <span className='text-blue-700'> LIVE THE BEST </span>
                 IN THIS Lifetime
               </h2>
               <div className="mt-8 [column-fill:_balance] sm:columns-2 sm:gap-6 lg:columns-3 lg:gap-8">
@@ -139,6 +142,11 @@ function ProjectPage() {
 
 
       </div >
+      <div className='p-8 mt-8'>
+      <h1 className=' mt-8 p-6 md:p-8 text-5xl font-black text-blue-700'>Gallery </h1>
+      <Gallery />
+      </div>
+      
 
     </div>
   )
