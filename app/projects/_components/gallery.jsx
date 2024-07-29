@@ -16,7 +16,8 @@ function Gallery() {
     })
 
     return (
-        <>
+        <div className=''>
+            <h1 className=' p-6 md:p-8 text-5xl font-black text-blue-700'>Gallery </h1>
             <div className="navigation-wrapper p-8 border rounded-lg">
                 <div ref={sliderRef} className="keen-slider">
                     <div className="keen-slider__slide p-5"><img src="gym.jpg" className="w-full h-50 border rounded-md" alt="" /></div>
@@ -65,7 +66,7 @@ function Gallery() {
                     })}
                 </div>
             )}
-        </>
+        </div>
     )
 }
 
