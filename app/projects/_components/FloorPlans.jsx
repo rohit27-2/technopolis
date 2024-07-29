@@ -8,11 +8,11 @@ function FloorPlans() {
                 Floor Plan
             </h2>
             <div className='mt-8'>
-                <div>
+                <div className='border rounded-md'>
                     <img src="2dplan.jpg" alt="" />
                 </div>
-                <div className='px-20 mt-5'>
-                    <img src="3dplan.jpeg" alt="" />
+                <div className='px-20 py-10 mt-5 border rounded-md'>
+                    <img src="3dplan.jpeg" alt="" className='border rounded-lg'/>
                 </div>
             </div>
         </div>
