@@ -3,7 +3,7 @@ import data from '../data'
 function Aminities() {
   return (
     <div>
-        <section className="bg-white">
+        <section className="bg-white mt-20">
             <div className="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
               <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
                 <span className='text-blue-700'> LIVE THE BEST </span>
@@ -21,7 +21,7 @@ function Aminities() {
                       <img
                         src={item.image}
                         alt={item.title}
-                        className="mt-4 text-gray-700 border rounded-md transition-opacity hover:opacity-90"
+                        className="mt-4 w-full text-gray-700 border rounded-md transition-opacity hover:opacity-90"
                       />
                     </blockquote>
                   </div>

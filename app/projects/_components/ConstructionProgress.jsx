@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import { useKeenSlider } from "keen-slider/react"
 import "keen-slider/keen-slider.min.css"
 import "./style.css"
-function Gallery() {
+function ConstructionProgress() {
     const [currentSlide, setCurrentSlide] = useState(0)
     const [loaded, setLoaded] = useState(false)
     const [sliderRef, instanceRef] = useKeenSlider({
@@ -17,7 +17,7 @@ function Gallery() {
 
     return (
         <div className='p-10'>
-            <h1 className='px-6 md:p-8 text-5xl font-black text-blue-700'>Gallery </h1>
+            <h1 className='px-6 md:p-8 text-5xl font-black text-blue-700'>Construction Progress </h1>
             <div className="w-100 navigation-wrapper py-8 px-10 border rounded-lg">
                 <div ref={sliderRef} className="keen-slider">
                     <div className="keen-slider__slide p-5"><img src="gym.jpg" className="w-full h-50 border rounded-md" alt="" /></div>
@@ -89,4 +89,4 @@ function Arrow(props) {
     )
 }
 
-export default Gallery
+export default ConstructionProgress
