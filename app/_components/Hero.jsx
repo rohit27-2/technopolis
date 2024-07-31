@@ -8,7 +8,7 @@ function Hero() {
   >
     Welcome to <span className='text-blue-700'>Technopolis</span> 
   </div>
-            <video className="absolute z-10 w-auto min-w-full min-h-full max-w-none" autoPlay loop muted><source src='HeroVideo.mp4' /> </video>
+            <video className="absolute z-10 w-auto min-w-full min-h-full max-w-none" autoPlay loop muted><source src='solitaire-video-1.mp4' /> </video>
         </div>
     )
 }

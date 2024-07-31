@@ -11,7 +11,7 @@
     },
     {
       "title": "Swimming Pool with Pool Deck",
-      "image": "pool.jpg",
+      "image": "main/swimming.jpg",
       "bgColor": "bg-blue-100"
     },
     {
@@ -45,8 +45,8 @@
       "bgColor": "bg-blue-100"
     },
     {
-        "title": "Senior Citizen Lounge",
-        "image": "senior.jpg",
+        "title": "Guest/ Visitor Lounge",
+        "image": "main/guest.jpg",
         "bgColor": "bg-blue-50"
       }
   ]
