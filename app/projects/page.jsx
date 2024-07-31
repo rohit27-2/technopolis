@@ -301,8 +301,8 @@ function ProjectPage() {
 
       </section>
       {/* <FloorPlans /> */}
-      <div className='px-20'>
-        <h2 className="text-4xl font-bold sm:text-5xl">
+      <div className='sm:px-20 md:px-20 px-5'>
+        <h2 className="text-4xl font-black sm:text-5xl">
           <span className='text-blue-700'>2D & 3D </span>
           Floor Plan
         </h2>
@@ -310,13 +310,13 @@ function ProjectPage() {
           <div className='border rounded-md'>
             <img src="2dplan.jpg" alt="" />
           </div>
-          <div className='px-20 py-10 mt-5 border rounded-md'>
+          <div className='sm:px-20 md:px-10 py-2 mt-5 border rounded-md'>
             <img src="3dplan.jpeg" alt="" className='border rounded-lg' />
           </div>
         </div>
       </div>
       {/* <Features /> */}
-      <div className='px-20 mt-10'>
+      <div className='sm:px-15 md:px-20 px-5 mt-10'>
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4'>
           <div className='flex flex-col justify-around border rounded-lg p-5 text-center  border-gray-100 shadow-md  hover:border-blue-400 cursor-pointer  '>
             <h1 className=' mt-8 p-6 md:p-8 text-3xl sm:text-3xl md:text-4xl lg:text-4xl font-black'><span className=' text-blue-700'>BLESSED LUXURY</span> Living </h1>
@@ -331,11 +331,11 @@ function ProjectPage() {
             <p>Spread across 2.24 acres in Kondapur, Solitaire Unity lets you live connected to facilities you need. Enjoy easy access to the best educational institutes, offices, hospitals, entertainment centres and so much more. Live in the middle of excitement right here at Solitaire Unity</p>
           </div>
           <div className='flex flex-col justify-around border rounded-lg p-5 text-center  border-gray-100 shadow-md bg-blue-50 hover:border-blue-400 cursor-pointer  '>
-            <h1 className=' mt-8 p-6 md:p-8 text-3xl sm:text-3xl md:text-4xl lg:text-4xl font-black'>WHERE <span className=' text-blue-700'>MEMORIES</span> Live Forever</h1>
+            <h1 className=' mt-8 p-6 md:p-5 text-3xl sm:text-3xl md:text-4xl lg:text-4xl font-black'>WHERE <span className=' text-blue-700'>MEMORIES</span> Live Forever</h1>
             <p>The impeccable quality at every step of the construction process along with smartly integrated amenities ensures you a comfortable living. With worldclass infrastructural technology, your home here is a space that lasts for generations to come.</p>
           </div>
           <div className='flex flex-col justify-around border rounded-lg p-5 text-center  border-gray-100 shadow-md  hover:border-blue-400 cursor-pointer  '>
-            <h1 className=' mt-8 p-6 md:p-8 text-3xl sm:text-3xl md:text-4xl lg:text-4xl font-black'>LUXURY THAT CATERS TO EVERY<span className=' text-blue-700'>Loved one</span>  </h1>
+            <h1 className=' mt-8 p-2 md:p-8 text-3xl sm:text-3xl md:text-4xl lg:text-4xl font-black'>LUXURY THAT CATERS TO EVERY<span className=' text-blue-700'> Loved one</span>  </h1>
             <p>Sometimes, life throws an opportunity of comfort and prosperity your way. Solitaire Unity is one such beautiful opportunity. Indulge  a lifelong experience of ease and luxury that enhances and nurtures your lifestyle.</p>
           </div>
           <div className='flex flex-col justify-around border rounded-lg p-5 text-center  border-gray-100 shadow-md bg-blue-50 hover:border-blue-400 cursor-pointer  '>
@@ -380,7 +380,7 @@ function ProjectPage() {
         </section>
       </div>
       {/* <Specifications /> */}
-      <div className='px-20'>
+      <div className='sm:px-20 md:px-20 px-5'>
         <h2 className="text-4xl font-bold sm:text-5xl">
           <span className='text-blue-700'>Specifications </span>
 
@@ -432,9 +432,9 @@ function ProjectPage() {
         </div>
       </div>
       {/* <Gallery /> */}
-      <div className='p-10'>
-        <h1 className='px-6 md:p-8 text-5xl font-black text-blue-700'>Gallery </h1>
-        <div className="w-100 navigation-wrapper py-8 px-10 border rounded-lg">
+      <div className=' mt-8 sm:px-20 md:px-20 px-5'>
+        <h1 className='px-5 md:p-2 text-5xl font-black text-blue-700'>Gallery </h1>
+        <div className="w-100 navigation-wrapper mt-8 py-8 px-10 border rounded-lg">
           <div ref={sliderRef} className="keen-slider">
             <div className="keen-slider__slide p-5"><img src="gym.jpg" className="w-full h-50 border rounded-md" alt="" /></div>
             <div className="keen-slider__slide p-5"><img src="games.jpg" className="w-full h-50 border rounded-md" alt="" /></div>
@@ -483,7 +483,7 @@ function ProjectPage() {
         )}
       </div>
       {/* <ConstructionProgress /> */}
-      <div className='p-10'>
+      {/* <div className='p-10'>
             <h1 className='px-6 md:p-8 text-5xl font-black text-blue-700'>Construction Progress </h1>
             <div className="w-100 navigation-wrapper py-8 px-10 border rounded-lg">
                 <div ref={sliderRef} className="keen-slider">
@@ -532,7 +532,7 @@ function ProjectPage() {
                     })}
                 </div>
             )}
-        </div>
+        </div> */}
     </div>
   )
 }

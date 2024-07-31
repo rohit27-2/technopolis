@@ -4,13 +4,13 @@ import React from 'react'
 function Projects() {
     return (
 
-        <div id='projects' className='mt-8 p-6 flex flex-col items-center'>
+        <div id='projects' className='mt-8 py-8 flex flex-col items-center'>
             <div className='flex flex-col items-center' >
                 <h1 className='mt-8 p-6 text-5xl font-black text-gray-800'>Luxury  <span className='text-blue-700'>Living, </span>Redefined </h1>
                 <p >"Get to know our Previous Projects"</p>
             </div >
 
-            <div className='flex gap-9 mt-8 p-20 '>
+            <div className='flex gap-9 mt-8 p-5 lg:p-20 md:p-10 sm:p-10 '>
                 <div className="relative block rounded-3xl border border-gray-100">
                     <span
                         className="absolute -right-px -top-px rounded-bl-3xl rounded-tr-3xl bg-rose-600 px-6 py-4 font-medium uppercase tracking-widest text-white"
